@@ -1,0 +1,9 @@
+LeftAndMain:
+  extra_requirements_css:
+    - flat-cms/css/style.css
+  extensions:
+    - FlatCMSLeftAndMainExtension
+
+SiteConfig:
+  extensions:
+    - FlatCMSSiteConfigExtension

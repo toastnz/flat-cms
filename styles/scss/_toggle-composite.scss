@@ -1,0 +1,61 @@
+.cms {
+    .togglecomposite {
+        border-radius: 0;
+        border: 0;
+        color: white;
+    }
+    .ui-accordion-header {
+        border-radius: 0;
+        a {
+            color: white;
+            text-shadow: none;
+        }
+        .ui-accordion-header-icon {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 5px 0 5px 8px;
+            border-color: transparent transparent transparent #ffffff;
+            background: transparent;
+            top: 17px;
+            left: 10px;
+            transition: all 240ms;
+        }
+        &.ui-state-active .ui-accordion-header-icon {
+            transform: rotate(90deg);
+        }
+    }
+}
+
+#Form_EditForm_Twitter-Graph {
+    &.ss-toggle .ui-accordion-header.ui-state-default,
+    &.togglecomposite {
+        background-color: #5ea9dd !important;
+    }
+    &.ui-accordion .ui-accordion-content,
+    &.ss-toggle .ui-accordion-header.ui-state-default {
+        border-color: #5ea9dd !important;
+    }
+}
+
+#Form_EditForm_Open-graph {
+    &.ss-toggle .ui-accordion-header.ui-state-default,
+    &.togglecomposite {
+        background-color: #3b5998 !important;
+    }
+    &.ui-accordion .ui-accordion-content,
+    &.ss-toggle .ui-accordion-header.ui-state-default {
+        border-color: #3b5998 !important;
+    }
+}
+
+#Form_EditForm_Toast-SEO {
+    &.ss-toggle .ui-accordion-header.ui-state-default,
+    &.togglecomposite {
+        background-color: #ff9b17 !important;
+    }
+    &.ui-accordion .ui-accordion-content,
+    &.ss-toggle .ui-accordion-header.ui-state-default {
+        border-color: #ff9b17 !important;
+    }
+}

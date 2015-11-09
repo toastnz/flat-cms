@@ -1,0 +1,75 @@
+.cms-menu-list {
+    li {
+        a {
+            text-shadow: none;
+            background: transparent;
+            border-top: 0;
+            border-bottom: 0;
+            color: white;
+            &:hover {
+                text-decoration: none;
+                border-bottom: 0;
+            }
+            &:focus,
+            &:active {
+                border-top: 0;
+                text-decoration: none;
+            }
+
+        }
+        ul li a {
+            //border-top: 1px solid lighten($color-base, 2%);
+        }
+
+        &.current { //need to apply current stlye to flyout also (at least line height)
+            a {
+                //color: $color-text-light;
+                text-shadow: none;
+                border-top: 0;
+                border-bottom: 0;
+                //background: darken($color-menu-button, 22%);
+
+            }
+
+            ul {
+                border-top: none;
+                display: block;
+            }
+
+            li {
+                //background-color: darken($color-menu-button, 10%);
+                a {
+                    //color: lighten($color-menu-button, 45%);
+                    background: none;
+                    border-top: 0;
+                    border-bottom: 0;
+
+                    &.current,
+                    &:hover {
+                        //background: darken($color-menu-button, 5%);
+                        border-top: 0;
+                        //color: $color-text-light;
+                    }
+
+                    &:focus {
+                        //background: darken($color-menu-button, 15%);
+                        //border-top: 1px solid darken($color-menu-button, 20%);
+                        //color: lighten($color-menu-button, 60%);
+                    }
+
+                }
+
+                &.current {
+                    //background: darken($color-menu-button, 5%);
+                    //border-top: 1px solid darken($color-menu-button, 5%);
+                    border-top: none;
+                    a {
+                        //color: $color-text-light;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
