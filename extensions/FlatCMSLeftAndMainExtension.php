@@ -140,7 +140,7 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
 
             // Does this class have an awesome icon?
 
-            if ($icon = Config::inst()->get($class, 'awesome_icon', Config::FIRST_SET)) {
+            if ($icon = Config::inst()->get($class, 'icon', Config::FIRST_SET)) {
                 // Fix the prefix of the icon class name:
                 $icon = $this->prefix($icon);
             } elseif ($class == 'Help') {

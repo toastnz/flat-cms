@@ -9,16 +9,16 @@ SiteConfig:
     - FlatCMSSiteConfigExtension
 
 CMSPagesController:
-  awesome_icon: sitemap
+  icon: sitemap
 
 AssetAdmin:
-  awesome_icon: picture-o
+  icon: picture-o
 
 ReportAdmin:
-  awesome_icon: bar-chart
+  icon: bar-chart
 
 SecurityAdmin:
-  awesome_icon: users
+  icon: users
 
 CMSSettingsController:
   awesome_icon: cogs
