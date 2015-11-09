@@ -21,11 +21,12 @@
         background: none;
         width: 100%;
         img {
-            width: 100%;
+            width: 90%;
             opacity: 1;
             z-index: 999;
             position: relative;
             display: block;
+            margin: 0 auto;
         }
     }
     .cms-logo-header {

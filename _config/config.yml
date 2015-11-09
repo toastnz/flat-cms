@@ -21,4 +21,4 @@ SecurityAdmin:
   icon: users
 
 CMSSettingsController:
-  awesome_icon: cogs
+  icon: cogs
