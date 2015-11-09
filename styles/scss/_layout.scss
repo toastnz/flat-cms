@@ -18,4 +18,10 @@
             color: white;
         }
     }
+    .cms-content-fields.center.cms-panel-content.cms-panel-padded .SelectionGroup.selectiongroup.parent-mode.nolabel li {
+        label {
+            margin-bottom: 10px;
+            display: block;
+        }
+    }
 }

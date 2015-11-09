@@ -78,10 +78,7 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
             '{background:' . $this->owner->config()->cms_highlight_colour . ' !important;}' .
             '.cms .cms-menu-list li a:hover,' .
             '.cms .cms-menu-list li.current a' .
-            '{background:' . $this->adjustBrightness($this->owner->config()->cms_highlight_colour, 20) . '!important;}' .
-            '.cms .cms-menu-list li a .icon' .
-            '{color:' . $this->adjustBrightness($this->owner->config()->cms_highlight_colour, - 100) . '!important;}'
-
+            '{background:' . $this->adjustBrightness($this->owner->config()->cms_highlight_colour, 20) . '!important;}'
         );
 
         /* Form Elements */
@@ -96,13 +93,15 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
             '.cms .ss-ui-button.ss-ui-action-constructive' .
             '{background: ' . $this->owner->config()->cms_success_color . ';' .
             'border-color: ' . $this->owner->config()->cms_success_color . ';}' .
-            '.cms .ss-ui-button.ss-ui-action-constructive:hover' .
+            '.cms .ss-ui-button.ss-ui-action-constructive:hover,' .
+            '.cms .ss-ui-button.ss-ui-action-constructive:active' .
             '{background: ' . $this->adjustBrightness($this->owner->config()->cms_success_color, 20) . ';' .
             'border-color: ' . $this->adjustBrightness($this->owner->config()->cms_success_color, 20) . ';}' .
             '.cms .ss-ui-button.ss-ui-action-destructive' .
             '{background: ' . $this->owner->config()->cms_error_color . ';' .
             'border-color: ' . $this->owner->config()->cms_error_color . ';}' .
-            '.cms .ss-ui-button.ss-ui-action-destructive:hover' .
+            '.cms .ss-ui-button.ss-ui-action-destructive:hover,' .
+            '.cms .ss-ui-button.ss-ui-action-destructive:active' .
             '{background: ' . $this->adjustBrightness($this->owner->config()->cms_error_color, 20) . ';' .
             'border-color: ' . $this->adjustBrightness($this->owner->config()->cms_error_color, 20) . ';}'
         );

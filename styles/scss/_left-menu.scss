@@ -1,6 +1,37 @@
 .cms {
+    .cms-login-status {
+        position: fixed;
+        bottom: 0;
+        width: 220px;
+        border-top: 1px solid white;
+    }
+    .cms-logo {
+        border: 0;
+        border-bottom: 1px solid white;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+        a {
+            position: relative;
+        }
+    }
+    .cms-logo-header span a {
+        color: white;
+    }
+    .front-end-link {
+        background: none;
+        width: 100%;
+        img {
+            width: 100%;
+            opacity: 1;
+            z-index: 999;
+            position: relative;
+            display: block;
+        }
+    }
+    .cms-logo-header {
+        background: transparent;
+    }
     .cms-menu {
-        /* -webkit-font-smoothing: antialiased; */
         -moz-osx-font-smoothing: grayscale;
         font-family: sans-serif;
         background: #1b354c;
@@ -9,8 +40,14 @@
         box-shadow: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         box-shadow: none;
-        &.collapsed .cms-menu-list li {
-            float: none;
+        &.collapsed {
+            .cms-menu-list li {
+                float: none;
+            }
+            width: 46px !important;
+            .cms-logo, .cms-login-status {
+                opacity: 0;
+            }
         }
     }
     .cms-menu-list {

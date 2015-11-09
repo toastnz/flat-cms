@@ -18,7 +18,7 @@ ReportAdmin:
   awesome_icon: bar-chart
 
 SecurityAdmin:
-  awesome_icon: user
+  awesome_icon: users
 
 CMSSettingsController:
-  awesome_icon: cog
+  awesome_icon: cogs
