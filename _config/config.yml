@@ -7,3 +7,18 @@ LeftAndMain:
 SiteConfig:
   extensions:
     - FlatCMSSiteConfigExtension
+
+CMSPagesController:
+  awesome_icon: sitemap
+
+AssetAdmin:
+  awesome_icon: picture-o
+
+ReportAdmin:
+  awesome_icon: bar-chart
+
+SecurityAdmin:
+  awesome_icon: user
+
+CMSSettingsController:
+  awesome_icon: cog

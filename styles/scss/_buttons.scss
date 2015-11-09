@@ -1,0 +1,50 @@
+.cms {
+    .ss-ui-button {
+        margin-top: 0;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        background: #eaeaea;
+        white-space: nowrap;
+        border-radius: 0px;
+        box-shadow: none;
+        -moz-box-shadow-inset: none;
+        -webkit-box-shadow-inset: none;
+        -khtml-box-shadow-inset: none;
+
+        &.ui-state-hover, &:hover {
+            text-decoration: none;
+            box-shadow: none;
+        }
+
+        &:active, &:focus, &.ui-state-active, &.ui-state-focus {
+            box-shadow: none;
+        }
+
+        &.ss-ui-action-minor {
+            span {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        /* constructive */
+        &.ss-ui-action-constructive {
+            text-shadow: none;
+            font-weight: bold;
+        }
+
+        &.ss-ui-action-minor {
+            background: none;
+            border: 0;
+            text-decoration: underline;
+
+            &:hover,
+            &:focus,
+            &:active {
+                text-decoration: none;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,38 @@
+.cms {
+    .ui-tabs.cms-tabset-primary .ui-tabs-nav,
+    .ui-tabs .ui-tabs-nav.cms-tabset-nav-primary,
+    .ui-tabs .cms-content-header-tabs .ui-tabs-nav {
+        border-left: none;
+        .ui-state-default {
+            background: transparent;
+            outline: none;
+            border: none;
+            box-shadow: none;
+            a {
+                color: #000;
+                text-shadow: none;
+                font-weight: normal;
+            }
+        }
+        .ui-state-active {
+            border-top: none;
+            a {
+                color: white;
+                text-shadow: none;
+                font-weight: 600;
+                outline: none;
+            }
+        }
+    }
+
+}
+
+.cms {
+    .cms-content-header {
+        background: #fff;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .breadcrumbs-wrapper .section-icon {
+        display: none;
+    }
+}

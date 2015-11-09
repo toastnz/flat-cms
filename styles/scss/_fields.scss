@@ -1,0 +1,19 @@
+.cms {
+    .field label.left {
+        color: #555;
+        text-shadow: none;
+    }
+    .field input.text, .field textarea, .field .TreeDropdownField {
+        background: #ffffff;
+        border: 1px solid #adadae;
+        border-radius: 0;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    .ss-uploadfield .middleColumn {
+        border-radius: 0;
+        background: white;
+    }
+
+}
