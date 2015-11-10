@@ -47,4 +47,12 @@
         }
 
     }
+
+    .ui-button-icon-primary {
+        display: none !important;
+    }
+
+    .ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text {
+        padding: .4em 1em;
+    }
 }

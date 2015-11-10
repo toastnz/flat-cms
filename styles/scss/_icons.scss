@@ -214,10 +214,15 @@ html .cms .icon {
 
 .cms-content-controls .preview-selector .chzn-container.chzn-with-rise .chzn-drop ul li:before {
     margin-right: 4px;
+    font-size: 11px;
 }
 
-.cms-content-controls .preview-selector {
+.cms .cms-content-controls .preview-selector {
     margin: 0px;
+}
+
+.chzn-single.icon-preview.chzn-single-with-drop:before {
+    font-size: 11px;
 }
 
 .cms-content-controls .preview-selector a.chzn-single {
