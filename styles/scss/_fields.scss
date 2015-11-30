@@ -16,4 +16,12 @@
         background: white;
     }
 
+    .field input.youtube {
+        background-image: url('../../images/field-icon-youtube.png') !important;
+        background-position: 6px center  !important;
+        background-repeat: no-repeat  !important;
+        background-size: 28px 20px  !important;
+        padding-left: 40px;
+    }
+
 }
