@@ -159,14 +159,10 @@ html .cms .icon {
 .cms-content-controls .icon-tablet:before,
 .cms-content-controls .icon-mobile:before {
     font-family: "FontAwesome";
-
     background: none transparent;
-
     text-align: center;
     text-indent: 0;
-
     font-size: 24px;
-
     color: #444;
 }
 
@@ -377,4 +373,47 @@ html .cms .icon {
 
 .ui-tabs .ui-tabs-nav li.cms-tabset-icon.edit a:before {
     content: "\f040";
+}
+
+.cms {
+    .ui-button-icon-primary.ui-icon.btn-icon-cross-circle {
+        display: inline-block !important;
+        background: none;
+        position: absolute;
+        &:after {
+            font-family: "FontAwesome";
+            background: none transparent;
+            text-align: center;
+            text-indent: 0;
+            content: "\f057";
+            position: absolute;
+            left: 1px;
+            top: 0px;
+            font-size: 17px;
+            color: #E22323;
+        }
+    }
+    table.ss-gridfield-table tbody td a.edit-link {
+        display: inline-block !important;
+        background: none;
+        position: relative;
+        &:after {
+            font-family: "FontAwesome";
+            background: none transparent;
+            text-align: center;
+            text-indent: 0;
+            content: "\f044";
+            position: absolute;
+            left: 1px;
+            top: 0px;
+            font-size: 17px;
+        }
+    }
+}
+
+#preview-mode-dropdown-in-preview,
+#preview-mode-dropdown-in-content-select_chzn {
+    .chzn-single:before {
+        font-size: 16px;
+    }
 }

@@ -22,3 +22,10 @@ SecurityAdmin:
 
 CMSSettingsController:
   icon: cogs
+
+KickAssets:
+  icon: folder-open
+  menu_title: Browse Files
+
+MenuAdmin:
+  icon: th-list
