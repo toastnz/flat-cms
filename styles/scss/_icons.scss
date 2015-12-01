@@ -4,6 +4,27 @@
 //========================================================================================================================
 //========================================================================================================================
 .cms {
+    .ui-icon.ui-icon-closethick {
+        background-image: none !important;
+        &.ui-state-hover {
+            border: 0 !important;
+            background-image: none !important;
+            &:before {
+                right: 4px;
+                top: 7px;
+            }
+        }
+        &:before {
+            color: red;
+            content: "\e888" !important;
+            position: absolute;
+            text-indent: 0;
+            right: 6px;
+            background: white;
+            border-radius: 100px;
+            top: 9px;
+        }
+    }
     .cms-content-controls .icon-auto:before {
         font-size: 16px;
         content: "\e915" !important;
@@ -165,6 +186,7 @@ html .cms .icon {
 }
 
 .cms {
+    .ui-icon.ui-icon-closethick:before,
     .cms-content-controls .icon-auto:before,
     .cms-content-controls .icon-edit:before,
     .cms-content-controls .icon-split:before,
@@ -266,6 +288,8 @@ html .cms .icon {
 .cms-content-controls .preview-selector.dropdown a.chzn-single:before {
     width: 24px;
     height: 24px;
+    position: relative;
+    top: 4px;
 }
 
 .cms-content-controls .preview-selector .chzn-container.chzn-with-rise .chzn-drop ul li:before {
