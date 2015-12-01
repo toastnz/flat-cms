@@ -1,3 +1,150 @@
+//========================================================================================================================
+//========================================================================================================================
+// Set static icons
+//========================================================================================================================
+//========================================================================================================================
+.cms {
+    .cms-content-controls .icon-auto:before {
+        font-size: 16px;
+        content: "\e915" !important;
+    }
+
+    .cms-content-controls .icon-edit {
+        padding-top: 5px !important;
+    }
+
+    .cms-content-controls .icon-edit:before {
+        content: "\e3c9" !important;
+    }
+
+    .cms-content-controls .icon-split:before {
+        content: "\e8ec" !important;
+    }
+
+    .cms-content-controls .icon-preview:before {
+        content: "\e417" !important;
+    }
+
+    .cms-content-controls .icon-desktop:before {
+        font-size: 20px;
+        content: "\e30c" !important;
+    }
+
+    .cms-content-controls .icon-tablet:before {
+        content: "\e331" !important;
+    }
+
+    .cms-content-controls .icon-mobile:before {
+        content: "\e325" !important;
+    }
+
+    .cms-content-tools .ui-button .ui-icon {
+        display: none !important;
+    }
+
+    div.CMSProfileController .cms-content-header .cms-content-header-info .section-icon::before {
+        content: "\e7fd";
+    }
+    .ui-icon-triangle-1-e::before {
+        content: "\e315";
+    }
+
+    .ui-icon-triangle-1-s::before {
+        content: "\e313";
+    }
+
+    .ui-icon-triangle-1-n::before {
+        content: "\e316";
+    }
+
+    .ui-icon-triangle-1-w::before {
+        content: "\e314";
+    }
+
+    //.cms-content-controls .icon-auto:before {
+    //    font-size: 16px;
+    //    content: "\f0ec" !important;
+    //}
+    //
+    //.cms-content-controls .icon-edit {
+    //    padding-top: 5px !important;
+    //}
+    //
+    //.cms-content-controls .icon-edit:before {
+    //    content: "\e3c9" !important;
+    //}
+    //
+    //.cms-content-controls .icon-split:before {
+    //    content: "\f0db" !important;
+    //}
+    //
+    //.cms-content-controls .icon-preview:before {
+    //    content: "\f06e" !important;
+    //}
+
+    .cms-content-controls .icon-desktop:before {
+        font-size: 20px;
+
+        content: "\e30c" !important;
+    }
+
+    .cms-content-controls .icon-tablet:before {
+        content: "\e331" !important;
+    }
+
+    .cms-content-controls .icon-mobile:before {
+        content: "\e325" !important;
+    }
+    .ui-tabs .ui-tabs-nav li.cms-tabset-icon.tree a:before {
+        content: "\e7f9";
+    }
+
+    .ui-tabs .ui-tabs-nav li.cms-tabset-icon.list a:before {
+        content: "\e896";
+    }
+
+    .ui-tabs .ui-tabs-nav li.cms-tabset-icon.edit a:before {
+        content: "\e3c9";
+    }
+}
+
+//========================================================================================================================
+//========================================================================================================================
+//========================================================================================================================
+//========================================================================================================================
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
+    url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+    url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+
 @font-face {
     font-family: 'FontAwesome';
     src: url('../fonts/fontawesome-webfont.eot');
@@ -25,62 +172,24 @@ html .cms .icon {
     .cms-content-controls .icon-desktop:before,
     .cms-content-controls .icon-tablet:before,
     .cms-content-controls .icon-mobile:before {
-        font-family: "FontAwesome";
-        background: none transparent;
-        text-align: center;
-        text-indent: 0;
-        //font-size: 24px;
-    }
-
-    .cms-content-controls .icon-auto:before {
-        font-size: 16px;
-        content: "\f0ec" !important;
-    }
-
-    .cms-content-controls .icon-edit {
-        padding-top: 5px !important;
-    }
-
-    .cms-content-controls .icon-edit:before {
-        content: "\f044" !important;
-    }
-
-    .cms-content-controls .icon-split:before {
-        content: "\f0db" !important;
-    }
-
-    .cms-content-controls .icon-preview:before {
-        content: "\f06e" !important;
-    }
-
-    .cms-content-controls .icon-desktop:before {
-        font-size: 20px;
-
-        content: "\f108" !important;
-    }
-
-    .cms-content-controls .icon-tablet:before {
-        content: "\f10a" !important;
-    }
-
-    .cms-content-controls .icon-mobile:before {
-        content: "\f10b" !important;
-    }
-    .cms-content-tools .ui-button .ui-icon {
-        display: none !important;
+        //font-family: "FontAwesome";
+        //background: none transparent;
+        //text-align: center;
+        //text-indent: 0;
+        @extend .material-icons;
+        font-family: "Material Icons" !important;
     }
 
     .icon {
-        text-indent: 0;
-        font-size: 14px;
-        font-family: "FontAwesome";
-        font-weight: normal;
-        background: none !important;
+        //text-indent: 0;
+        //font-size: 14px;
+        //font-family: "FontAwesome";
+        //font-weight: normal;
+        //background: none !important;
+        @extend .material-icons;
+        font-family: "Material Icons" !important;
     }
 
-    div.CMSProfileController .cms-content-header .cms-content-header-info .section-icon::before {
-        content: "\f007";
-    }
     .ui-icon-triangle-1-e::before,
     .ui-icon-triangle-1-s::before,
     .ui-icon-triangle-1-n::before,
@@ -90,21 +199,6 @@ html .cms .icon {
         font-size: 16px;
     }
 
-    .ui-icon-triangle-1-e::before {
-        content: "\f0da";
-    }
-
-    .ui-icon-triangle-1-s::before {
-        content: "\f0d7";
-    }
-
-    .ui-icon-triangle-1-n::before {
-        content: "\f0d8";
-    }
-
-    .ui-icon-triangle-1-w::before {
-        content: "\f0d9";
-    }
 }
 
 .cms-content-tools {
@@ -158,48 +252,14 @@ html .cms .icon {
 .cms-content-controls .icon-desktop:before,
 .cms-content-controls .icon-tablet:before,
 .cms-content-controls .icon-mobile:before {
-    font-family: "FontAwesome";
+    //font-family: "FontAwesome";
     background: none transparent;
+    @extend .material-icons;
+    font-family: "Material Icons" !important;
     text-align: center;
     text-indent: 0;
     font-size: 24px;
     color: #444;
-}
-
-.cms-content-controls .icon-auto:before {
-    font-size: 16px;
-
-    content: "\f0ec" !important;
-}
-
-.cms-content-controls .icon-edit {
-    padding-top: 5px !important;
-}
-
-.cms-content-controls .icon-edit:before {
-    content: "\f044" !important;
-}
-
-.cms-content-controls .icon-split:before {
-    content: "\f0db" !important;
-}
-
-.cms-content-controls .icon-preview:before {
-    content: "\f06e" !important;
-}
-
-.cms-content-controls .icon-desktop:before {
-    font-size: 20px;
-
-    content: "\f108" !important;
-}
-
-.cms-content-controls .icon-tablet:before {
-    content: "\f10a" !important;
-}
-
-.cms-content-controls .icon-mobile:before {
-    content: "\f10b" !important;
 }
 
 .cms-content-controls .icon-view:before,
@@ -359,20 +419,8 @@ html .cms .icon {
 .ui-tabs .ui-tabs-nav li.cms-tabset-icon a:before {
     font-size: 18px;
     line-height: 39px;
-    font-family: 'FontAwesome';
+    font-family: "Material Icons" !important;
     font-weight: 100;
-}
-
-.ui-tabs .ui-tabs-nav li.cms-tabset-icon.tree a:before {
-    content: "\f0e8";
-}
-
-.ui-tabs .ui-tabs-nav li.cms-tabset-icon.list a:before {
-    content: "\f03a";
-}
-
-.ui-tabs .ui-tabs-nav li.cms-tabset-icon.edit a:before {
-    content: "\f040";
 }
 
 .cms {
@@ -381,7 +429,9 @@ html .cms .icon {
         background: none;
         position: absolute;
         &:after {
-            font-family: "FontAwesome";
+            //font-family: "FontAwesome";
+            @extend .material-icons;
+            font-family: "Material Icons" !important;
             background: none transparent;
             text-align: center;
             text-indent: 0;
@@ -398,11 +448,13 @@ html .cms .icon {
         background: none;
         position: relative;
         &:after {
-            font-family: "FontAwesome";
+            //font-family: "FontAwesome";
+            @extend .material-icons;
+            font-family: "Material Icons" !important;
             background: none transparent;
             text-align: center;
             text-indent: 0;
-            content: "\f044";
+            content: "\e3c9";
             position: absolute;
             left: 1px;
             top: 0px;

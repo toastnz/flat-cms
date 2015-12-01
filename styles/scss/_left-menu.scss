@@ -74,6 +74,16 @@
                     width: 18px;
                     text-align: center;
                     font-size: 16px;
+                    @extend .material-icons;
+                    background-image: none;
+                    &:before {
+                        font-family: "Material Icons";
+                        position: absolute;
+                        font-size: 19px;
+                        text-indent: 0;
+                        display: block;
+                        margin-top: -1px;
+                    }
                 }
             }
             &.current {

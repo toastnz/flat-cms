@@ -9,23 +9,23 @@ SiteConfig:
     - FlatCMSSiteConfigExtension
 
 CMSPagesController:
-  icon: sitemap
+  icon: pages
 
 AssetAdmin:
-  icon: picture-o
+  icon: crop_original
 
 ReportAdmin:
-  icon: bar-chart
+  icon: insert_chart
 
 SecurityAdmin:
-  icon: users
+  icon: people
 
 CMSSettingsController:
-  icon: cogs
+  icon: settings
 
 KickAssets:
-  icon: folder-open
+  icon: folder_open
   menu_title: Browse Files
 
 MenuAdmin:
-  icon: th-list
+  icon: view_list

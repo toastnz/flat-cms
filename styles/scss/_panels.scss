@@ -24,9 +24,76 @@
 
 .cms-panel .cms-panel-toggle a span {
     color: #FFF;
+    font-size: 0;
+    font-family: "Material Icons" !important;
+
+}
+
+.cms-panel.cms-content-tools .cms-panel-toggle a span {
+    color: #888;
+}
+
+.cms-panel .cms-panel-toggle a span:before {
+    content: "\e5c4" !important;
+    font-size: 16px;
+}
+
+.cms-panel.collapsed .cms-panel-toggle a span:before {
+    content: "\f0a9";
+}
+
+.cms .ss-ui-action-tabset.action-menus.ss-tabset .ui-tabs-panel {
+    padding-bottom: 0;
+
+    border-radius: 0;
+}
+
+.cms .ss-ui-action-tabset.action-menus.ss-tabset .ui-tabs-panel .cms-sitetree-information {
+    border-bottom: 1px solid #D4D6D8;
+}
+
+.cms .ss-ui-action-tabset.action-menus.ss-tabset ul.ui-tabs-nav li a {
+    color: #007FBA;
+
+    text-shadow: none;
+}
+
+.cms .ss-ui-action-tabset.action-menus.ss-tabset ul.ui-tabs-nav li a:hover {
+    color: #007FBA;
+
+    text-decoration: underline;
+}
+
+.cms .cms-panel-padded,
+.ui-tabs .ui-tabs-panel.cms-panel-padded {
+    padding: 15px;
+}
+
+.cms-panel .cms-panel-toggle {
+    box-shadow: none;
+}
+
+.cms-panel .cms-panel-toggle.south,
+.cms-panel.cms-content-tools .cms-panel-toggle.south {
+    border-top: none;
+    box-shadow: none;
+}
+
+#cms-content-tools-CMSMain .ui-resizable-e {
+    width: 10px;
+}
+
+#Form_ListViewForm_Page {
+    border-bottom: 0;
+}
+
+.cms-panel .cms-panel-toggle a span {
+    color: #FFF;
 
     font-size: 0;
-    font-family: "FontAwesome";
+
+    font-family: "Material Icons" !important;
+
 }
 
 .cms-panel.cms-content-tools .cms-panel-toggle a span {
@@ -92,71 +159,8 @@
 
     font-size: 0;
     font-family: "FontAwesome";
-}
 
-.cms-panel.cms-content-tools .cms-panel-toggle a span {
-    color: #888;
-}
 
-.cms-panel .cms-panel-toggle a span:before {
-    content: "\f0a8";
-    font-size: 16px;
-}
-
-.cms-panel.collapsed .cms-panel-toggle a span:before {
-    content: "\f0a9";
-}
-
-.cms .ss-ui-action-tabset.action-menus.ss-tabset .ui-tabs-panel {
-    padding-bottom: 0;
-
-    border-radius: 0;
-}
-
-.cms .ss-ui-action-tabset.action-menus.ss-tabset .ui-tabs-panel .cms-sitetree-information {
-    border-bottom: 1px solid #D4D6D8;
-}
-
-.cms .ss-ui-action-tabset.action-menus.ss-tabset ul.ui-tabs-nav li a {
-    color: #007FBA;
-
-    text-shadow: none;
-}
-
-.cms .ss-ui-action-tabset.action-menus.ss-tabset ul.ui-tabs-nav li a:hover {
-    color: #007FBA;
-
-    text-decoration: underline;
-}
-
-.cms .cms-panel-padded,
-.ui-tabs .ui-tabs-panel.cms-panel-padded {
-    padding: 15px;
-}
-
-.cms-panel .cms-panel-toggle {
-    box-shadow: none;
-}
-
-.cms-panel .cms-panel-toggle.south,
-.cms-panel.cms-content-tools .cms-panel-toggle.south {
-    border-top: none;
-    box-shadow: none;
-}
-
-#cms-content-tools-CMSMain .ui-resizable-e {
-    width: 10px;
-}
-
-#Form_ListViewForm_Page {
-    border-bottom: 0;
-}
-
-.cms-panel .cms-panel-toggle a span {
-    color: #FFF;
-
-    font-size: 0;
-    font-family: "FontAwesome";
 }
 
 .cms-panel.cms-content-tools .cms-panel-toggle a span {
