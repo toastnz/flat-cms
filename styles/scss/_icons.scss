@@ -46,6 +46,18 @@
         content: "\e417" !important;
     }
 
+    .btn-icon-chain--minus {
+        display: inline-block !important;
+        background: none;
+        position: absolute;
+        text-indent: 0;
+        overflow: visible;
+        &::before {
+            content: "\e157" !important;
+            font-size: 20px !important;
+        }
+    }
+
     .cms-content-controls .icon-desktop:before {
         font-size: 20px;
         content: "\e30c" !important;
@@ -186,6 +198,7 @@ html .cms .icon {
 }
 
 .cms {
+    .btn-icon-chain--minus:before,
     .ui-icon.ui-icon-closethick:before,
     .cms-content-controls .icon-auto:before,
     .cms-content-controls .icon-edit:before,
@@ -459,7 +472,7 @@ html .cms .icon {
             background: none transparent;
             text-align: center;
             text-indent: 0;
-            content: "\f057";
+            content: "\e888";
             position: absolute;
             left: 1px;
             top: 0px;
