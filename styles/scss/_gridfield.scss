@@ -1,0 +1,9 @@
+.cms #Root_Main .ss-gridfield-item [type="checkbox"]:not(:checked),
+.cms #Root_Main .ss-gridfield-item [type="checkbox"]:checked,
+.cms .cms-content-fields .ss-gridfield-item [type="checkbox"]:not(:checked),
+.cms .cms-content-fields .ss-gridfield-item [type="checkbox"]:checked,
+.cms .cms-panel-content .ss-gridfield-item [type="checkbox"]:not(:checked),
+.cms .cms-panel-content .ss-gridfield-item [type="checkbox"]:checked {
+    position: relative;
+    left: 0;
+}
