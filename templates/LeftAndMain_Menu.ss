@@ -17,9 +17,10 @@
         </div>
 
         <div class="cms-login-status">
+
             <% with $CurrentMember %>
                 <span>
-					<% _t('LeftAndMain_Menu_ss.Hello','Hi') %>
+                   
                     <a href="{$AbsoluteBaseURL}admin/myprofile" class="profile-link">
                         <% if $FirstName && $Surname %>$FirstName $Surname<% else_if $FirstName %>$FirstName<% else %>$Email<% end_if %>
                     </a>
@@ -45,4 +46,6 @@
         <a class="toggle-expand" href="#"><span>&raquo;</span></a>
         <a class="toggle-collapse" href="#"><span>&laquo;</span></a>
     </div>
+
+    <a href="Security/logout" class="logout-link" title="<% _t('LeftAndMain_Menu_ss.LOGOUT','Log out') %>"><i class="material-icons">input</i></a>
 </div>

@@ -1,4 +1,21 @@
+.logout-link{
+    position: absolute !important;
+    left: 9px !important;
+    bottom: 6px !important;
+    color: white !important;
+    i{
+        font-size:18px;
+    }
+}
 .cms {
+    .toggle-collapse{
+        width:40px !important;
+        float:right !important;
+    }
+    .cms-logo-header .logout-link{
+        position:relative;
+        z-index:99;
+    }
     .cms-login-status {
         position: fixed;
         bottom: 0;
