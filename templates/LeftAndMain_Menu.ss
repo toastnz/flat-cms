@@ -12,7 +12,10 @@
                     </div>
                 <% end_if %>
             <% else %>
-                <span><% if $SiteConfig %>$SiteConfig.Title<% else %>$ApplicationName<% end_if %></span>
+                <div class="logo">
+                    <a class="front-end-link" href="{$BaseHref}" target="_blank"><img style="width:60%;float:left;" src="flat-cms/images/toast-logo.png"></a>
+                </div>
+                <%--<span><% if $SiteConfig %>$SiteConfig.Title<% else %>$ApplicationName<% end_if %></span>--%>
             <% end_if %>
         </div>
 

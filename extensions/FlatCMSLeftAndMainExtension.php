@@ -109,8 +109,8 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
         /* Tabs */
         Requirements::customCSS(
             '.cms .cms-content-header.north .cms-content-header-tabs .ui-tabs-nav li.ui-state-active a' .
-            '{background-color:' . $this->owner->config()->cms_highlight_colour . ';' .
-            'border-bottom: 1px solid ' . $this->owner->config()->cms_highlight_colour . ';}' .
+            '{background-color:' . $this->owner->config()->cms_success_color . ';' .
+            'border-bottom: 1px solid ' . $this->owner->config()->cms_success_color . ';}' .
             '.cms .ui-tabs-nav li.ui-state-active' .
             '{background:' . $this->owner->config()->cms_highlight_colour . ';}'
         );
