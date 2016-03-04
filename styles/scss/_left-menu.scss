@@ -1,20 +1,21 @@
-.logout-link{
+.logout-link {
     position: absolute !important;
     left: 9px !important;
     bottom: 6px !important;
     color: white !important;
-    i{
-        font-size:18px;
+    i {
+        font-size: 18px;
     }
 }
+
 .cms {
-    .toggle-collapse{
-        width:40px !important;
-        float:right !important;
+    .toggle-collapse {
+        width: 40px !important;
+        float: right !important;
     }
-    .cms-logo-header .logout-link{
-        position:relative;
-        z-index:99;
+    .cms-logo-header .logout-link {
+        position: relative;
+        z-index: 99;
     }
     .cms-login-status {
         position: fixed;
@@ -77,6 +78,15 @@
                 border-top: 0;
                 border-bottom: 0;
                 color: white;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    background: #eceff1;
+                    right: 0;
+                    width: 10px;
+                    height: 10px;
+                    display: block;
+                }
                 &:hover {
                     text-decoration: none;
                     border-bottom: 0;
