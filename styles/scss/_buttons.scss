@@ -60,3 +60,34 @@
 .cms .ss-ui-button.ss-ui-action-destructive {
     color: white;
 }
+
+#Form_EditForm_action_save,
+#Form_EditForm_action_publish {
+    outline: none;
+    &.loading {
+        &:after {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            content: 'Publishing...';
+            background: #23282d;
+            border: 1px solid #23282d;
+            color: white;
+            text-align: center;
+            display: block;
+            line-height: 27px;
+            text-shadow: none;
+        }
+    }
+}
+
+#Form_EditForm_action_save {
+    outline: none;
+    &.loading {
+        &:after {
+            content: 'Saving...';
+        }
+    }
+}
