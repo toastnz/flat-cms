@@ -105,6 +105,11 @@
                     }
                 }
             }
+            #Menu-CMSPagesController {
+                a:after {
+                    border-color: transparent #eceff1 transparent transparent !important;
+                }
+            }
             &.current {
                 a {
                     text-shadow: none;
@@ -120,7 +125,7 @@
                         height: 0;
                         border-style: solid;
                         border-width: 10px 10px 10px 0;
-                        border-color: transparent #eceff1 transparent transparent;
+                        border-color: transparent #fbfbfb transparent transparent;
                     }
                 }
                 ul {

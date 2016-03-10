@@ -61,6 +61,7 @@
     color: white;
 }
 
+#Form_EditForm_action_save_siteconfig,
 #Form_EditForm_action_save,
 #Form_EditForm_action_publish {
     outline: none;
@@ -83,6 +84,7 @@
     }
 }
 
+#Form_EditForm_action_save_siteconfig,
 #Form_EditForm_action_save {
     outline: none;
     &.loading {

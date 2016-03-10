@@ -39,9 +39,11 @@
 .cms .ss-ui-button.ss-ui-action-destructive {
   color: white; }
 
+#Form_EditForm_action_save_siteconfig,
 #Form_EditForm_action_save,
 #Form_EditForm_action_publish {
   outline: none; }
+  #Form_EditForm_action_save_siteconfig.loading:after,
   #Form_EditForm_action_save.loading:after,
   #Form_EditForm_action_publish.loading:after {
     position: absolute;
@@ -58,8 +60,10 @@
     line-height: 27px;
     text-shadow: none; }
 
+#Form_EditForm_action_save_siteconfig,
 #Form_EditForm_action_save {
   outline: none; }
+  #Form_EditForm_action_save_siteconfig.loading:after,
   #Form_EditForm_action_save.loading:after {
     content: 'Saving...'; }
 
@@ -733,6 +737,9 @@ html .cms .icon {
       display: block;
       margin-top: -1px; }
 
+.cms .cms-menu-list li #Menu-CMSPagesController a:after {
+  border-color: transparent #eceff1 transparent transparent !important; }
+
 .cms .cms-menu-list li.current a {
   text-shadow: none;
   border-top: 0;
@@ -748,7 +755,7 @@ html .cms .icon {
     height: 0;
     border-style: solid;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #eceff1 transparent transparent; }
+    border-color: transparent #fbfbfb transparent transparent; }
 
 .cms .cms-menu-list li.current ul {
   border-top: none;
@@ -947,6 +954,19 @@ html .cms .icon {
       text-shadow: none;
       font-weight: 600;
       outline: none; }
+
+.cms table.ss-gridfield-table tr.title th {
+  border-radius: 0 !important;
+  border: 0 !important; }
+
+.cms table.ss-gridfield-table tr:first-child:hover {
+  background: rgba(0, 0, 0, 0.05); }
+
+.cms table.ss-gridfield-table tr th.main {
+  border: 0; }
+
+.cms table.ss-gridfield-table tr td.bottom-all {
+  border-radius: 0; }
 
 .cms .cms-content-header {
   background: #fff;

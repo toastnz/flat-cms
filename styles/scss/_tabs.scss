@@ -27,7 +27,19 @@
             }
         }
     }
-
+    table.ss-gridfield-table tr.title th {
+        border-radius: 0 !important;
+        border: 0 !important;
+    }
+    table.ss-gridfield-table tr:first-child:hover {
+        background: rgba(black, 0.05);
+    }
+    table.ss-gridfield-table tr th.main {
+        border: 0;
+    }
+    table.ss-gridfield-table tr td.bottom-all {
+        border-radius: 0;
+    }
 }
 
 .cms {

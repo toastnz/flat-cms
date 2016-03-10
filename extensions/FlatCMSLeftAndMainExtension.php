@@ -90,8 +90,10 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
 
         /* Buttons */
         Requirements::customCSS(
-            '.cms .ss-ui-button.ss-ui-action-constructive' .
-            '{background: ' . $this->owner->config()->cms_success_color . ';' .
+            '.cms table.ss-gridfield-table tr th.main,table.ss-gridfield-table tr td.bottom-all ' .
+            '{background: ' . $this->adjustBrightness($this->owner->config()->cms_success_color, 30) . ' !important;}' .
+            'table.ss-gridfield-table tr.title th,.cms .ss-ui-button.ss-ui-action-constructive' .
+            '{background: ' . $this->owner->config()->cms_success_color . ' !important;' .
             'border-color: ' . $this->owner->config()->cms_success_color . ';}' .
             '.cms .ss-ui-button.ss-ui-action-constructive:hover,' .
             '.cms .ss-ui-button.ss-ui-action-constructive:active' .
