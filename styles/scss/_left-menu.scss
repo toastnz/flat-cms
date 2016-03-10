@@ -87,7 +87,6 @@
                     border-top: 0;
                     text-decoration: none;
                 }
-
                 .icon {
                     opacity: 1;
                     width: 18px;
@@ -137,7 +136,6 @@
                         background: none;
                         border-top: 0;
                         border-bottom: 0;
-
                         &.current,
                         &:hover {
                             border-top: 0;
@@ -146,7 +144,6 @@
                     &.current {
                         border-top: none;
                     }
-
                 }
             }
 
