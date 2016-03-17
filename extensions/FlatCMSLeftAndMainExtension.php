@@ -8,9 +8,9 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
     /**
      * @var string
      */
-    private static $cms_highlight_colour = '#0eb0a9';
-    private static $cms_success_color = '#0eb0a9';
-    private static $cms_error_color = '#0eb0a9';
+    private static $cms_highlight_colour = '#23282d';
+    private static $cms_success_color = '#0073aa';
+    private static $cms_error_color = '#d54e21';
 
     /**
      * ─────────────────────────────▄██▄
