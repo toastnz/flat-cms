@@ -975,6 +975,170 @@ html .cms .icon {
 .cms .breadcrumbs-wrapper .section-icon {
   display: none; }
 
+.cms .mceToolbar {
+  padding: 2px 3px !important; }
+
+.cms .defaultSkin table.mceListBoxEnabled:hover .mceText, .cms .defaultSkin .mceListBoxHover .mceText, .cms .defaultSkin .mceListBoxSelected .mceText {
+  outline: none !important; }
+
+.cms .mceListBoxMenu {
+  height: auto !important; }
+  .cms .mceListBoxMenu .mceIcon {
+    display: none; }
+
+.cms .defaultSkin .mceButton {
+  background-color: #f0f0ee;
+  width: 30px;
+  height: 30px;
+  cursor: pointer; }
+
+.cms .mceButtonDisabled:after,
+.cms .mceButtonEnabled:after {
+  display: none !important; }
+
+.cms .defaultSkin span.mceIcon {
+  background: none;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 2px; }
+  .cms .defaultSkin span.mceIcon:hover {
+    background: #fafafa;
+    border-color: #999;
+    color: #23282d;
+    box-shadow: inset 0 1px 0 #fff, 0 1px 0 rgba(0, 0, 0, 0.08);
+    outline: 1px solid #999; }
+
+.cms .defaultSkin a.mceButtonEnabled:hover {
+  border: 1px solid transparent;
+  background-color: #f0f0ee; }
+
+.cms .defaultSkin a.mceButtonActive {
+  border: 1px solid transparent;
+  background-color: #f0f0ee; }
+  .cms .defaultSkin a.mceButtonActive .mceIcon:after {
+    color: #00afec !important; }
+
+.cms .mceSeparator {
+  display: none !important; }
+
+.cms .defaultSkin span.mceIcon:after {
+  font-family: "Material Icons";
+  position: absolute;
+  font-size: 19px;
+  text-indent: 0;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0px;
+  right: 0;
+  margin: 0 auto 0;
+  color: #777777;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga'; }
+
+.cms .mce_bold:after {
+  content: '\e238'; }
+
+.cms .mce_italic:after {
+  content: '\e23f'; }
+
+.cms .mce_underline:after {
+  content: '\e249'; }
+
+.cms .mce_strikethrough:after {
+  content: '\e246'; }
+
+.cms .mce_justifyleft:after {
+  content: '\e236'; }
+
+.cms .mce_justifyright:after {
+  content: '\e237'; }
+
+.cms .mce_justifycenter:after {
+  content: '\e234'; }
+
+.cms .mce_justifyfull:after {
+  content: '\e235'; }
+
+.cms .mce_bullist:after {
+  content: '\e241'; }
+
+.cms .mce_numlist:after {
+  content: '\e242'; }
+
+.cms .mce_blockquote:after {
+  content: '\e244'; }
+
+.cms .mce_blockquote:after {
+  content: '\e244'; }
+
+.cms .mce_outdent:after {
+  content: '\e23d'; }
+
+.cms .mce_indent:after {
+  content: '\e23e'; }
+
+.cms .mce_undo:after {
+  content: '\e166'; }
+
+.cms .mce_redo:after {
+  content: '\e15a'; }
+
+.cms .mce_cut:after {
+  content: '\e14e'; }
+
+.cms .mce_copy:after {
+  content: '\e14d'; }
+
+.cms .mce_paste:after {
+  content: '\e14f'; }
+
+.cms .mce_image:after {
+  content: '\e3f4'; }
+
+.cms .mce_link:after {
+  content: '\e250'; }
+
+.cms .mceButtonEnabled .mce_link:after {
+  color: #00afec !important; }
+
+.cms .mce_unlink:after {
+  content: '\e250'; }
+
+.cms .mceButtonEnabled .mce_unlink:after {
+  color: #ec4c68 !important; }
+
+.cms .mce_code:after {
+  content: '\e86f'; }
+
+.cms .mce_fullscreen:after {
+  content: '\e5d0'; }
+
+.cms .mce_table:after {
+  content: '\e228'; }
+
+.cms .mce_pastetext:after {
+  content: '\e14f'; }
+
 .cms .togglecomposite {
   border-radius: 0;
   border: 0;
