@@ -1139,6 +1139,9 @@ html .cms .icon {
 .cms .mce_pastetext:after {
   content: '\e14f'; }
 
+.cms .mce_youtube:after {
+  content: '\e04b'; }
+
 .cms .togglecomposite {
   border-radius: 0;
   border: 0;
