@@ -1,152 +1,153 @@
 .logout-link {
-    position: absolute !important;
-    left: 9px !important;
-    bottom: 6px !important;
-    color: white !important;
-    i {
-        font-size: 18px;
-    }
+  position: absolute !important;
+  left: 9px !important;
+  bottom: 6px !important;
+  color: white !important;
+  i {
+    font-size: 18px;
+  }
 }
 
 .cms {
-    .toggle-collapse {
-        width: 40px !important;
-        float: right !important;
+  .toggle-collapse {
+    width: 40px !important;
+    float: right !important;
+  }
+  .cms-logo-header .logout-link {
+    position: relative;
+    z-index: 99;
+  }
+  .cms-login-status {
+    position: fixed;
+    bottom: 0;
+    width: 220px;
+    border-top: 1px solid white;
+  }
+  .cms-logo {
+    border: 0;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    a {
+      position: relative;
     }
-    .cms-logo-header .logout-link {
-        position: relative;
-        z-index: 99;
+  }
+  .cms-logo-header span a {
+    color: white;
+  }
+  .front-end-link {
+    background: none;
+    width: 100%;
+    img {
+      width: 90%;
+      opacity: 1;
+      z-index: 999;
+      position: relative;
+      display: block;
+      margin: 0 auto;
     }
-    .cms-login-status {
-        position: fixed;
-        bottom: 0;
-        width: 220px;
-        border-top: 1px solid white;
+  }
+  .cms-logo-header {
+    background: transparent;
+  }
+  .cms-menu {
+    -moz-osx-font-smoothing: grayscale;
+    font-family: sans-serif;
+    background: #1b354c;
+    color: #fff;
+    width: 240px !important;
+    box-shadow: none;
+    box-shadow: none;
+    &.collapsed {
+      .cms-menu-list li {
+        float: none;
+      }
+      width: 46px !important;
+      .cms-logo, .cms-login-status {
+        opacity: 0;
+      }
     }
-    .cms-logo {
-        border: 0;
-        border-bottom: 1px solid white;
-        padding-bottom: 30px;
-        margin-bottom: 20px;
-        a {
-            position: relative;
-        }
-    }
-    .cms-logo-header span a {
-        color: white;
-    }
-    .front-end-link {
+  }
+  .cms-menu-list {
+    li {
+      a {
+        margin: 2px 0;
+        text-shadow: none;
         background: none;
-        width: 100%;
-        img {
-            width: 90%;
-            opacity: 1;
-            z-index: 999;
-            position: relative;
+        border-top: 0;
+        border-bottom: 0;
+        color: white;
+        font-weight: 300;
+        &:hover {
+          text-decoration: none;
+          border-bottom: 0;
+        }
+        &:focus,
+        &:active {
+          border-top: 0;
+          text-decoration: none;
+        }
+        .icon {
+          opacity: 1;
+          width: 18px;
+          text-align: center;
+          font-size: 16px;
+          @extend .material-icons;
+          background-image: none;
+          &:before {
+            font-family: "Material Icons";
+            position: absolute;
+            font-size: 22px;
+            text-indent: 0;
             display: block;
-            margin: 0 auto;
+            margin-top: -3px;
+            margin-left: -2px;
+          }
         }
-    }
-    .cms-logo-header {
-        background: transparent;
-    }
-    .cms-menu {
-        -moz-osx-font-smoothing: grayscale;
-        font-family: sans-serif;
-        background: #1b354c;
-        color: #fff;
-        width: 240px !important;
-        box-shadow: none;
-        box-shadow: none;
-        &.collapsed {
-            .cms-menu-list li {
-                float: none;
-            }
-            width: 46px !important;
-            .cms-logo, .cms-login-status {
-                opacity: 0;
-            }
+      }
+      #Menu-CMSPagesController {
+        a:after {
+          border-color: transparent #eceff1 transparent transparent !important;
         }
-    }
-    .cms-menu-list {
+      }
+      &.current {
+        a {
+          text-shadow: none;
+          border-top: 0;
+          border-bottom: 0;
+          &:after {
+            content: '';
+            position: absolute;
+            right: -2px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #fbfbfb transparent transparent;
+          }
+        }
+        ul {
+          border-top: none;
+          display: block;
+        }
         li {
-            a {
-                margin: 2px 0;
-                text-shadow: none;
-                background: none;
-                border-top: 0;
-                border-bottom: 0;
-                color: white;
-                font-weight: 300;
-                &:hover {
-                    text-decoration: none;
-                    border-bottom: 0;
-                }
-                &:focus,
-                &:active {
-                    border-top: 0;
-                    text-decoration: none;
-                }
-                .icon {
-                    opacity: 1;
-                    width: 18px;
-                    text-align: center;
-                    font-size: 16px;
-                    @extend .material-icons;
-                    background-image: none;
-                    &:before {
-                        font-family: "Material Icons";
-                        position: absolute;
-                        font-size: 19px;
-                        text-indent: 0;
-                        display: block;
-                        margin-top: -1px;
-                    }
-                }
+          a {
+            background: none;
+            border-top: 0;
+            border-bottom: 0;
+            &.current,
+            &:hover {
+              border-top: 0;
             }
-            #Menu-CMSPagesController {
-                a:after {
-                    border-color: transparent #eceff1 transparent transparent !important;
-                }
-            }
-            &.current {
-                a {
-                    text-shadow: none;
-                    border-top: 0;
-                    border-bottom: 0;
-                    &:after {
-                        content: '';
-                        position: absolute;
-                        right: -2px;
-                        top: 50%;
-                        transform: translateY(-50%);
-                        width: 0;
-                        height: 0;
-                        border-style: solid;
-                        border-width: 10px 10px 10px 0;
-                        border-color: transparent #fbfbfb transparent transparent;
-                    }
-                }
-                ul {
-                    border-top: none;
-                    display: block;
-                }
-                li {
-                    a {
-                        background: none;
-                        border-top: 0;
-                        border-bottom: 0;
-                        &.current,
-                        &:hover {
-                            border-top: 0;
-                        }
-                    }
-                    &.current {
-                        border-top: none;
-                    }
-                }
-            }
-
+          }
+          &.current {
+            border-top: none;
+          }
         }
+      }
+
     }
+  }
 }

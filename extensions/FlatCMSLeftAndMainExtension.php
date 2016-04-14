@@ -3,7 +3,8 @@
 /**
  * Class FlatCMSLeftAndMainExtension
  */
-class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
+class FlatCMSLeftAndMainExtension extends LeftAndMainExtension
+{
 
     /**
      * @var string
@@ -47,7 +48,8 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
      * Override all of the things
      */
 
-    public function init() {
+    public function init()
+    {
 
         /* Radio & Check boxes */
         Requirements::customCSS(
@@ -95,6 +97,7 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
             'table.ss-gridfield-table tr.title th,.cms .ss-ui-button.ss-ui-action-constructive' .
             '{background: ' . $this->owner->config()->cms_success_color . ' !important;' .
             'border-color: ' . $this->owner->config()->cms_success_color . ';}' .
+            '.ss-uploadfield .ss-uploadfield-item .ss-uploadfield-item-preview.ss-uploadfield-dropzone{border: 2px dashed' . $this->owner->config()->cms_success_color . ';}' .
             '.cms .ss-ui-button.ss-ui-action-constructive:hover,' .
             '.cms .ss-ui-button.ss-ui-action-constructive:active' .
             '{background: ' . $this->adjustBrightness($this->owner->config()->cms_success_color, 20) . ';' .
@@ -128,7 +131,8 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
      *
      * @return string
      */
-    public function getAwesomeIconCSS() {
+    public function getAwesomeIconCSS()
+    {
 
         // Initialise Variables:
 
@@ -170,7 +174,8 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
      *
      * @return string
      */
-    protected function prefix($icon) {
+    protected function prefix($icon)
+    {
         return (substr($icon, 0, 3) != 'fa-') ? '' . $icon : $icon;
 
     }
@@ -180,8 +185,9 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
      * @param int $steps
      * @return String
      */
-    function adjustBrightness($hex, $steps) {
-        $steps = max(- 255, min(255, $steps));
+    function adjustBrightness($hex, $steps)
+    {
+        $steps = max(-255, min(255, $steps));
         $hex = str_replace('#', '', $hex);
         if (strlen($hex) == 3) {
             $hex = str_repeat(substr($hex, 0, 1), 2) . str_repeat(substr($hex, 1, 1), 2) . str_repeat(substr($hex, 2, 1), 2);

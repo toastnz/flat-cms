@@ -1,53 +1,53 @@
 .cms {
-    .ui-tabs.cms-tabset-primary .ui-tabs-nav,
-    .ui-tabs .ui-tabs-nav.cms-tabset-nav-primary,
-    .ui-tabs .cms-content-header-tabs .ui-tabs-nav {
-        border-left: none;
-        .ui-state-default {
-            background: #ced7dc;
-            border-color: #ced7dc;
-            outline: none;
-            border-left: none;
-            border-right: none;
-            box-shadow: none;
-            border-top: 1px solid transparent;
-            a {
-                color: #000;
-                text-shadow: none;
-                font-weight: normal;
-            }
-        }
-        .ui-state-active {
-            border-top: none;
-            a {
-                color: white;
-                text-shadow: none;
-                font-weight: 600;
-                outline: none;
-            }
-        }
+  .ui-tabs.cms-tabset-primary .ui-tabs-nav,
+  .ui-tabs .ui-tabs-nav.cms-tabset-nav-primary,
+  .ui-tabs .cms-content-header-tabs .ui-tabs-nav {
+    border-left: none;
+    .ui-state-default {
+      background: #ced7dc;
+      border-color: #ced7dc;
+      outline: none;
+      border-left: none;
+      border-right: none;
+      box-shadow: none;
+      border-top: 1px solid transparent;
+      a {
+        color: #000;
+        text-shadow: none;
+        font-weight: normal;
+      }
     }
-    table.ss-gridfield-table tr.title th {
-        border-radius: 0 !important;
-        border: 0 !important;
+    .ui-state-active {
+      border-top: none;
+      a {
+        color: white;
+        text-shadow: none;
+        font-weight: 600;
+        outline: none;
+      }
     }
-    table.ss-gridfield-table tr:first-child:hover {
-        background: rgba(black, 0.05);
-    }
-    table.ss-gridfield-table tr th.main {
-        border: 0;
-    }
-    table.ss-gridfield-table tr td.bottom-all {
-        border-radius: 0;
-    }
+  }
+  table.ss-gridfield-table tr.title th {
+    border-radius: 0 !important;
+    border: 0 !important;
+  }
+  table.ss-gridfield-table tr:first-child:hover {
+    background: rgba(black, 0.05);
+  }
+  table.ss-gridfield-table tr th.main {
+    border: 0;
+  }
+  table.ss-gridfield-table tr td.bottom-all {
+    border-radius: 0;
+  }
 }
 
 .cms {
-    .cms-content-header {
-        background: #fff;
-        border-bottom: 1px solid #d9d9d9;
-    }
-    .breadcrumbs-wrapper .section-icon {
-        display: none;
-    }
+  .cms-content-header {
+    background: #f9f9fb;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .breadcrumbs-wrapper .section-icon {
+    display: none;
+  }
 }
