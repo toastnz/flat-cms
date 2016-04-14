@@ -1,22 +1,22 @@
-@import url('//fonts.googleapis.com/css?family=Lato:300,400,500,600,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic);
 
 body, html, .ui-widget, .ss-ui-button, .ui-widget button, .ui-widget select, .ui-widget textarea, .ui-widget-content, .ui-widget input {
-    font-size: 13px;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    text-shadow: none;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: normal !important;
+  text-shadow: none;
 }
 
 html * {
-    text-shadow: none;
+  text-shadow: none;
 }
 
 .cms span.text {
-    font-size: 12px;
-    font-weight: 400;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .cms .ui-accordion-header a {
-    font-size: 12px;
-    font-weight: 300;
+  font-size: 12px;
+  font-weight: 300;
 }
