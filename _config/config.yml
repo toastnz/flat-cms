@@ -1,3 +1,7 @@
+---
+Name: toastflatcms
+After: 'framework/*','cms/*'
+---
 LeftAndMain:
   extra_requirements_css:
     - flat-cms/styles/css/style.css
