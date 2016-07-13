@@ -1,3 +1,13 @@
+.cms .field .chzn-container-single#SubsitesSelect_chzn {
+  .chzn-single {
+    background: transparent;
+  }
+  .chzn-drop {
+    background: white;
+    color: black;
+  }
+}
+
 .logout-link {
   position: absolute !important;
   left: 9px !important;
