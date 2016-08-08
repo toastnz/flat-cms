@@ -1,77 +1,80 @@
 .cms {
-  .ui-tabs .ui-tabs-nav ~ .ui-tabs-panel {
-    border-top: 0 !important;
-  }
-  .tree-holder.jstree-apple a, .tree-holder.jstree-apple a:link, .cms-tree.jstree-apple a, .cms-tree.jstree-apple a:link {
-    .text {
-      font-weight: 400 !important;
+    #Form_EditForm_ParentID {
+        display: none;
     }
-  }
-  .cms-content-tools .cms-panel-content {
-    padding-right: 0;
-  }
-  .tree-holder.jstree-apple li, .cms-tree.jstree-apple li {
-    position: relative;
-  }
-  .jstree-hovered {
-    background: transparent;
-  }
-  .jstree-apple .jstree-clicked {
-    background: transparent;
-    &:after {
-      content: '';
-      position: absolute;
-      display: block;
-      height: 100%;
-      background: #ced7dc;
-      opacity: 0.5;
-      top: -1px;
-      right: 0;
-      width: 400%;
-      padding: 1px;
-      z-index: -1;
+    .ui-tabs .ui-tabs-nav ~ .ui-tabs-panel {
+        border-top: 0 !important;
     }
-  }
-  .cms .cms-content {
-    border-right: 0 !important;
-  }
-  .cms-content-actions, .cms-preview-controls {
-    background: #f9f9fb;
-    border-top: 1px solid #e5e5e5;
-    box-shadow: none;
-  }
-  .cms-content-fields {
-    background: #f9f9fb;
-  }
-  .cms-content-tools {
-    background: #f9f9fb;
-  }
+    .tree-holder.jstree-apple a, .tree-holder.jstree-apple a:link, .cms-tree.jstree-apple a, .cms-tree.jstree-apple a:link {
+        .text {
+            font-weight: 400 !important;
+        }
+    }
+    .cms-content-tools .cms-panel-content {
+        padding-right: 0;
+    }
+    .tree-holder.jstree-apple li, .cms-tree.jstree-apple li {
+        position: relative;
+    }
+    .jstree-hovered {
+        background: transparent;
+    }
+    .jstree-apple .jstree-clicked {
+        background: transparent;
+        &:after {
+            content: '';
+            position: absolute;
+            display: block;
+            height: 100%;
+            background: #ced7dc;
+            opacity: 0.5;
+            top: -1px;
+            right: 0;
+            width: 400%;
+            padding: 1px;
+            z-index: -1;
+        }
+    }
+    .cms .cms-content {
+        border-right: 0 !important;
+    }
+    .cms-content-actions, .cms-preview-controls {
+        background: #f9f9fb;
+        border-top: 1px solid #e5e5e5;
+        box-shadow: none;
+    }
+    .cms-content-fields {
+        background: #f9f9fb;
+    }
+    .cms-content-tools {
+        background: #f9f9fb;
+    }
 
-  .ui-tabs-nav li.ui-state-default {
-    border-radius: 0;
-    border: 0;
-    margin: 0px;
-    margin-right: 1px;
-    a {
-      text-shadow: none;
+    .ui-tabs-nav li.ui-state-default {
+        border-radius: 0;
+        border: 0;
+        margin: 0px;
+        margin-right: 1px;
+        a {
+            text-shadow: none;
+        }
     }
-  }
-  .ui-tabs-nav li.ui-state-active {
-    padding: 0;
-    a {
-      color: white;
+    .ui-tabs-nav li.ui-state-active {
+        padding: 0;
+        a {
+            color: white;
+        }
     }
-  }
-  .cms-content-fields.center.cms-panel-content.cms-panel-padded .SelectionGroup.selectiongroup.parent-mode.nolabel li {
-    label {
-      margin-bottom: 10px;
-      display: block;
+    .cms-content-fields.center.cms-panel-content.cms-panel-padded .SelectionGroup.selectiongroup.parent-mode.nolabel li {
+        label {
+            margin-bottom: 10px;
+            display: block;
+        }
     }
-  }
 
-  .ui-dialog {
-    border: 0 !important;
-  }
+    .ui-dialog {
+        border: 0 !important;
+    }
 }
 
 

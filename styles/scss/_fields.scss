@@ -1,57 +1,65 @@
 .cms {
-  .ss-uploadfield .ss-uploadfield-item .ss-uploadfield-item-preview.ss-uploadfield-dropzone {
-    box-shadow: none;
-    border-radius: 0;
-    background: white;
-  }
-  .field.urlsegment .preview {
-    margin-right: 10px;
-  }
-  .field {
-    border-bottom: 1px solid #e5e5e5;
-    border: none;
-    padding-bottom: 24px;
-  }
-  .field label.left {
-    color: #666;
-    text-shadow: none;
-    font-weight: normal;
-  }
-  .field input.text, .field textarea, .field .TreeDropdownField {
-    background: #ffffff;
-    border: 1px solid #adadae;
-    border-radius: 0;
-
-    height: 35px;
-    max-width: 100%;
-    padding: 4px 6px;
-    border: 1px solid #e5e5e5;
-    background: #fff;
-    color: #666;
-    -webkit-transition: all linear .2s;
-    transition: all linear .2s;
-    border-radius: 2px;
-
-    &:focus {
-      box-shadow: none;
+    .ss-uploadfield .ss-uploadfield-item .ss-uploadfield-item-preview.ss-uploadfield-dropzone {
+        box-shadow: none;
+        border-radius: 0;
+        background: white;
     }
-  }
-  .ss-uploadfield .middleColumn {
-    //min-width: 510px;
-    //max-width: 530px;
-    //width: 100%;
-    //float: right;
-    border-radius: 0;
-    background: white;
-    border: 1px solid #e5e5e5;
-  }
+    .field.urlsegment .preview {
+        margin-right: 10px;
+    }
+    .field {
+        border-bottom: 1px solid #e5e5e5;
+        border: none;
+        padding-bottom: 24px;
+    }
+    .field label.left {
+        color: #666;
+        text-shadow: none;
+        font-weight: normal;
+    }
+    .field input.text, .field textarea, .field .TreeDropdownField {
+        background: #ffffff;
+        border: 1px solid #adadae;
+        border-radius: 0;
 
-  .field input.youtube {
-    background-image: url('../../images/field-icon-youtube.png') !important;
-    background-position: 6px center !important;
-    background-repeat: no-repeat !important;
-    background-size: 28px 20px !important;
-    padding-left: 40px;
-  }
+        height: 35px;
+        max-width: 100%;
+        padding: 4px 6px;
+        border: 1px solid #e5e5e5;
+        background: #fff;
+        color: #666;
+        -webkit-transition: all linear .2s;
+        transition: all linear .2s;
+        border-radius: 2px;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    .field textarea {
+        height: 100px;
+    }
+    .ss-uploadfield .middleColumn {
+        //min-width: 510px;
+        //max-width: 530px;
+        //width: 100%;
+        //float: right;
+        border-radius: 0;
+        background: white;
+        border: 1px solid #e5e5e5;
+    }
+    .ss-uploadfield-files,
+    .ss-uploadfield-item {
+        //border: 1px solid #a6a6a9;
+        //border-radius: 5px;
+    }
+
+    .field input.youtube {
+        background-image: url('../../images/field-icon-youtube.png') !important;
+        background-position: 6px center !important;
+        background-repeat: no-repeat !important;
+        background-size: 28px 20px !important;
+        padding-left: 40px;
+    }
 
 }
