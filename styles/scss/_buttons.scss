@@ -9,11 +9,8 @@
         cursor: pointer;
         background: #eaeaea;
         white-space: nowrap;
-        border-radius: 0px;
+        border-radius: 0;
         box-shadow: none;
-        -moz-box-shadow-inset: none;
-        -webkit-box-shadow-inset: none;
-        -khtml-box-shadow-inset: none;
         &.ui-state-hover, &:hover {
             text-decoration: none;
             box-shadow: none;

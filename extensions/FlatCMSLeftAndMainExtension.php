@@ -3,8 +3,7 @@
 /**
  * Class FlatCMSLeftAndMainExtension
  */
-class FlatCMSLeftAndMainExtension extends LeftAndMainExtension
-{
+class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
 
     /**
      * @var string
@@ -48,8 +47,7 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension
      * Override all of the things
      */
 
-    public function init()
-    {
+    public function init() {
 
         /* Radio & Check boxes */
         Requirements::customCSS(
@@ -76,6 +74,8 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension
 
         /* Left Hand Menu */
         Requirements::customCSS(
+            '.cms .description' .
+            '{border-left: 4px solid ' . $this->owner->config()->cms_success_color . ' !important;}' .
             '.cms .cms-menu' .
             '{background:' . $this->owner->config()->cms_highlight_colour . ' !important;}' .
             '.cms .cms-menu-list li a:hover,' .
@@ -113,9 +113,9 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension
 
         /* Tabs */
         Requirements::customCSS(
-            '.cms .cms-content-header.north .cms-content-header-tabs .ui-tabs-nav li.ui-state-active a' .
-            '{background-color:' . $this->owner->config()->cms_success_color . ';' .
-            'border-bottom: 1px solid ' . $this->owner->config()->cms_success_color . ';}' .
+            '.cms .ui-tabs-nav li.ui-state-active,.cms .cms-content-header.north .cms-content-header-tabs .ui-tabs-nav li.ui-state-active a' .
+            '{background-color:' . $this->owner->config()->cms_success_color . ' !important;' .
+            'border-bottom: 4px solid ' . $this->adjustBrightness($this->owner->config()->cms_success_color, 60) . ';}' .
             '.cms .ui-tabs-nav li.ui-state-active' .
             '{background:' . $this->owner->config()->cms_highlight_colour . ';}'
         );
@@ -131,8 +131,7 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension
      *
      * @return string
      */
-    public function getAwesomeIconCSS()
-    {
+    public function getAwesomeIconCSS() {
 
         // Initialise Variables:
 
@@ -174,8 +173,7 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension
      *
      * @return string
      */
-    protected function prefix($icon)
-    {
+    protected function prefix($icon) {
         return (substr($icon, 0, 3) != 'fa-') ? '' . $icon : $icon;
 
     }
@@ -185,9 +183,8 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension
      * @param int $steps
      * @return String
      */
-    function adjustBrightness($hex, $steps)
-    {
-        $steps = max(-255, min(255, $steps));
+    function adjustBrightness($hex, $steps) {
+        $steps = max(- 255, min(255, $steps));
         $hex = str_replace('#', '', $hex);
         if (strlen($hex) == 3) {
             $hex = str_repeat(substr($hex, 0, 1), 2) . str_repeat(substr($hex, 1, 1), 2) . str_repeat(substr($hex, 2, 1), 2);
