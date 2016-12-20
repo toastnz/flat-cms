@@ -200,6 +200,17 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
     }
 
     /**
+     * Get flat CMS class for WYSIWYG
+     *
+     * @return string
+     */
+    public function CustomWysiwygClass()
+    {
+        return Config::inst()->get('LeftAndMain', 'cms_style_tinymce') ? 'flatcms-tiny-styled' : 'flatcms-tiny-unstyled';
+    }
+
+
+    /**
      * An array which associates Font Awesome v4.3.0 class names with their unicode characters.
      *
      * @var array

@@ -3,6 +3,7 @@ Name: toastflatcms
 After: 'framework/*','cms/*'
 ---
 LeftAndMain:
+  cms_style_tinymce: true
   extra_requirements_css:
     - flat-cms/styles/css/style.css
   extensions:
