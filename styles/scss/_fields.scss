@@ -6,7 +6,7 @@
     .field label.right,
     .field label.left {
         float: none !important;
-        width: 100% !important;
+        //width: 100% !important;
     }
     .field .middleColumn,
     label.right {
@@ -18,7 +18,9 @@
         background: rgba(black, 0.03);
         padding: 10px;
         margin-top: 20px;
-        max-width: 590px;
+        //max-width: 590px;
+        background: white;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
     }
     .field .description {
         margin-left: 0 !important;
@@ -97,5 +99,13 @@
         background-size: 28px 20px !important;
         padding-left: 40px;
     }
-
+    .input-wrap--half {
+        width: 48%;
+        float: left;
+        margin-right: 2%;
+        &--last {
+            margin-left: 2%;
+            margin-right: 0;
+        }
+    }
 }

@@ -25,37 +25,24 @@
             transform: rotate(90deg);
         }
     }
-}
 
-#Form_EditForm_Twitter-Graph {
-    &.ss-toggle .ui-accordion-header.ui-state-default,
-    &.togglecomposite {
-        background-color: #5ea9dd !important;
+    #Form_EditForm_Twitter-Graph {
+        &.ss-toggle .ui-accordion-header.ui-state-default,
+        &.togglecomposite {
+            background-color: #5ea9dd !important;
+        }
     }
-    &.ui-accordion .ui-accordion-content,
-    &.ss-toggle .ui-accordion-header.ui-state-default {
-        border-color: #5ea9dd !important;
-    }
-}
 
-#Form_EditForm_Open-graph {
-    &.ss-toggle .ui-accordion-header.ui-state-default,
-    &.togglecomposite {
-        background-color: #3b5998 !important;
+    #Form_EditForm_Open-graph {
+        &.ui-accordion .ui-accordion-header {
+            background-color: #3b5998 !important;
+        }
     }
-    &.ui-accordion .ui-accordion-content,
-    &.ss-toggle .ui-accordion-header.ui-state-default {
-        border-color: #3b5998 !important;
-    }
-}
 
-#Form_EditForm_Toast-SEO {
-    &.ss-toggle .ui-accordion-header.ui-state-default,
-    &.togglecomposite {
-        background-color: #ff9b17 !important;
-    }
-    &.ui-accordion .ui-accordion-content,
-    &.ss-toggle .ui-accordion-header.ui-state-default {
-        border-color: #ff9b17 !important;
+    #Form_EditForm_Toast-SEO {
+        &.ss-toggle .ui-accordion-header.ui-state-default,
+        &.togglecomposite {
+            background-color: #ff9b17 !important;
+        }
     }
 }

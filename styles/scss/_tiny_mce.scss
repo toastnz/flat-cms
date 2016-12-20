@@ -1,4 +1,5 @@
-.cms {
+
+.flatcms-tiny-styled {
     .mceToolbar {
         padding: 2px 3px !important;
     }
@@ -49,14 +50,18 @@
         }
     }
     .mceSeparator {
-        display: none !important;
+        background: #ccc !important;
+        width: 1px !important;
+        margin: 0 5px !important;
+    }
+    .mce_video {
+        img {
+            display: none !important;
+        }
     }
     .defaultSkin span.mceIcon:after {
-        font-family: "Material Icons";
         position: absolute;
-        font-size: 19px;
         text-indent: 0;
-        display: block;
         top: 50%;
         transform: translateY(-50%);
         left: 0px;
@@ -92,6 +97,9 @@
     }
     .mce_strikethrough:after {
         content: '\e246';
+    }
+    .mce_video:after {
+        content: '\e04b';
     }
     .mce_justifyleft:after {
         content: '\e236';
@@ -144,6 +152,9 @@
     .mce_link:after {
         content: '\e250';
     }
+    .mce_hr:after {
+        content: '\e15b';
+    }
     .mceButtonEnabled .mce_link:after {
         color: #00afec !important;
     }
@@ -152,6 +163,12 @@
     }
     .mceButtonEnabled .mce_unlink:after {
         color: #ec4c68 !important;
+    }
+    .mce_anchor:after {
+        content: '\e250';
+    }
+    .mceButtonEnabled .mce_anchor:after {
+        color: #4baf50 !important;
     }
     .mce_code:after {
         content: '\e86f';
@@ -167,6 +184,42 @@
     }
     .mce_youtube:after {
         content: '\e04b';
+    }
+    .mce_selectall:after {
+        content: '\e162';
+    }
+    a span.mceText {
+        font-size: 11px !important;
+        font-weight: bold !important;
+    }
+
+    .mce_h1 a span.mceText {
+        font-size: 17px !important;
+        font-weight: bold !important;
+    }
+    .mce_h2 a span.mceText {
+        font-size: 16px !important;
+        font-weight: bold !important;
+    }
+    .mce_h3 a span.mceText {
+        font-size: 15px !important;
+        font-weight: bold !important;
+    }
+    .mce_h4 a span.mceText {
+        font-size: 14px !important;
+        font-weight: bold !important;
+    }
+    .mce_h5 a span.mceText {
+        font-size: 13px !important;
+        font-weight: bold !important;
+    }
+    .mce_h6 a span.mceText {
+        font-size: 12px !important;
+        font-weight: bold !important;
+    }
+    .mce_p a span.mceText {
+        font-size: 11px !important;
+        font-weight: bold !important;
     }
 }
 
