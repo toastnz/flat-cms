@@ -26,9 +26,10 @@ You can choose several colours to make things pretty and inline with your preffe
 
 ```
 LeftAndMain:
-  cms_highlight_colour : '#23282d';
-  cms_success_color : '#0073aa';
-  cms_error_color : '#d54e21';
+  cms_highlight_colour : '#23282d'
+  cms_success_color : '#0073aa'
+  cms_error_color : '#d54e21'
+  cms_style_tinymce: true
 ```
 
 Also you have the option to upload your own logo that will sit in the top left hand corner of the CMS. We have our own one. Remove this because this is ours, unless you make fantastics sites. that you want no credit for. If nothing else put in the Silverstripe logo because they are *amazing!!!*. 
