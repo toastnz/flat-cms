@@ -206,7 +206,7 @@ class FlatCMSLeftAndMainExtension extends LeftAndMainExtension {
      */
     public function CustomWysiwygClass()
     {
-        return Config::inst()->get('LeftAndMain', 'cms_style_tinymce') ? 'flatcms-tiny-styled' : 'flatcms-tiny-unstyled';
+        return Config::inst()->get('LeftAndMain', 'cms_style_tinymce') == 'true' ? 'flatcms-tiny-styled' : 'flatcms-tiny-unstyled';
     }
 
 
