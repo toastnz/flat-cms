@@ -1,5 +1,16 @@
 .cms {
-    .cms .ui-tabs-nav li.ui-state-active{
+    .cms-content-tools {
+        padding-right: 14px !important;
+    }
+    .cms-content-header {
+        background: #FFF !important;
+    }
+    .cms-content-tools,
+    .cms-content-fields,
+    .cms-content {
+        background: #f1f1f1 !important;
+    }
+    .cms .ui-tabs-nav li.ui-state-active {
     }
     .profile-link {
         top: 8px !important;
