@@ -3,7 +3,7 @@
 </p>
 
 
-#Silverstripe Flat CMS
+# Silverstripe Flat CMS
 
 Minor update to the Silverstripe CMS to give it a flatter aesthetic.
 
@@ -20,7 +20,7 @@ composer require toastnz/flat-cms
 </p>
 
 
-##Customisation
+## Customisation
 
 You can choose several colours to make things pretty and inline with your preffered branding. Just put the following in your sites' config.yml file,  or don't. The choice is yours. 
 
